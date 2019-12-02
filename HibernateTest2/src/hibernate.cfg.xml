@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <!--数据库连接的四个参数  参数名称需要用固定的名称-->
+    <property name="connection.url">jdbc:oracle:thin:@localhost:1521:orcl</property>
+    <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+
+    <!--配置数据库方言:告诉Hibenrate连接的数据库是哪一种-->
+    <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+    <mapping class="com.ht.vo.DeptVo"/>
+    <mapping resource="com/ht/vo/DeptVo.hbm.xml"/>
+    <mapping class="com.ht.vo.NewempVo"/>
+    <mapping resource="com/ht/vo/NewempVo.hbm.xml"/>
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

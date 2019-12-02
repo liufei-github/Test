@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HibernateTest/HibernateTest.iml" filepath="$PROJECT_DIR$/HibernateTest/HibernateTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HibernateTest2/HibernateTest2.iml" filepath="$PROJECT_DIR$/HibernateTest2/HibernateTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_MAVEN_1/SpringMVC_MAVEN_1.iml" filepath="$PROJECT_DIR$/SpringMVC_MAVEN_1/SpringMVC_MAVEN_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_T1/SpringMVC_T1.iml" filepath="$PROJECT_DIR$/SpringMVC_T1/SpringMVC_T1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test.iml" filepath="$PROJECT_DIR$/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sb_1/sb_1.iml" filepath="$PROJECT_DIR$/sb_1/sb_1.iml" />
+    </modules>
+  </component>
+</project>
